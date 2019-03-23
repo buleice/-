@@ -1,0 +1,13 @@
+/* pages/map/map.wxss */
+#myMap{
+  width:100%;
+  height: 600rpx;
+}
+.button{
+  width: auto;
+  display: inline-block;
+  text-align: center;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-top: 40rpx;
+}

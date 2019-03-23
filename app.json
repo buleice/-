@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/map/map",
+    "pages/search/search",
+    "pages/recommend/recommend",
+    "pages/tags/tags",
+    "pages/tag_poem/tag_poem",
+    "pages/authors/authors",
+    "pages/author/author",
+    "pages/tags/all_poem/all_poem"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "./resources/index.png",
+        "selectedIconPath": "./resources/index.png",
+        "text": "首页"
+      },
+        {
+          "selectedIconPath": "images/icon_recommend_checked.png",
+          "iconPath": "images/icon_recommend_nol.png",
+          "pagePath": "pages/logs/logs",
+          "text": "推荐"
+        },
+      {
+        "selectedIconPath": "images/icon_sort_checked.png",
+        "iconPath": "images/icon_sort_nol.png",
+        "pagePath": "pages/tags/tags",
+        "text": "诗词"
+      },
+      {
+        "pagePath": "pages/map/map",
+        "iconPath": "./resources/map.png",
+        "selectedIconPath": "./resources/map.png",
+        "text": "地图"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  }
+}

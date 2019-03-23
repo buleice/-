@@ -1,0 +1,13 @@
+<!--logs.wxml-->
+<view class="container log-list">
+  <block wx:for="{{poemList}}">
+  <view  class='poembox'>
+      <view class='header'>
+      <text class='title'>{{item.poemName}}</text>
+      <text class='auth'>{{item.poemAuthor}}</text>
+    </view>
+    <view class='body'>{{item.poemDescription}}</view>
+    <image class='speaker' bindtap='switchAudio' src='../../resources/speaker.png' data-index='{{index}}'></image>
+  </view>
+  </block>
+</view>
