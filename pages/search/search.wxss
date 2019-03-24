@@ -34,3 +34,40 @@ navigator{
   font-size: 12px;
   text-align: right
 }
+
+.log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+.log-item {
+  margin: 10rpx;
+}
+.poembox{
+  position: relative;
+  text-align: center;
+}
+.title{
+  font-size: 50rpx;
+}
+.auth{
+  font-size: 40rpx;
+  margin-left: 20rpx;
+  color: rgba(0,0,0, .7)
+}
+.body{
+  color:rgba(0,0,0, .9);
+  margin: 20rpx auto 40rpx;
+  text-align: left;
+  text-indent: 100rpx;
+}
+.speaker{
+  position: absolute;
+  top: 65rpx;
+  left: 0;
+  width: 80rpx;
+  height: 80rpx;
+}
+.audio{
+ /* opacity: 0 */
+}

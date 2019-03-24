@@ -1,11 +1,13 @@
-<!--miniprogram/pages/search/search.wxml-->
-<view  hidden='{{!loadingHidden}}'>
-  <view class='container' wx:for='{{searchs}}' wx:key="unique" bindtap='itemClick' id='{{index}}'>
-    <text class='poem_name'>{{item.name}}</text>
-    <text class='poem_content'>{{item.content}}</text>
+<!--logs.wxml-->
+<view class="container log-list">
+  <block wx:for="{{searchs}}">
+  <view  class='poembox'>
+      <view class='header'>
+      <text class='title'>{{item.poemName}}</text>
+      <text class='auth'>{{item.poemAuthor}}</text>
+    </view>
+    <view class='body'>{{item.poemDescription}}</view>
+    <image class='speaker' bindtap='switchAudio' src='../../resources/speaker.png' data-index='{{index}}'></image>
   </view>
+  </block>
 </view>
-<text class='tips'>暂不支持关键词搜索，敬请谅解</text>
-<loading hidden="{{loadingHidden}}">
-        加载中...
-</loading>
