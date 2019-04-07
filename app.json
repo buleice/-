@@ -1,8 +1,7 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/logs/logs",
-    "pages/map/map",
+    "pages/index/index", 
+    "pages/logs/logs", 
     "pages/search/search",
     "pages/recommend/recommend",
     "pages/tags/tags",
@@ -36,12 +35,6 @@
         "iconPath": "images/icon_sort_nol.png",
         "pagePath": "pages/tags/tags",
         "text": "诗词"
-      },
-      {
-        "pagePath": "pages/map/map",
-        "iconPath": "./resources/map.png",
-        "selectedIconPath": "./resources/map.png",
-        "text": "地图"
       }
     ]
   },
