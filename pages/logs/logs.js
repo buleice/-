@@ -5,17 +5,26 @@ Page({
   data: {
     logs: [],
     poemList:[],
-    src:'http://106.13.4.50/cqmy.wav',
-    src_2:'http://dl.stream.qqmusic.qq.com/C400000H2jfM21Wl7c.m4a?guid=4935912155&vkey=DB457B64C1C4E34F3305D83EDFABB7C8CB98F1012B0090FB2977A52D0E6616FB9003C316F11542A6A60267013C415A3486C2329FC7F08740&uin=0&fromtag=38',
+    src:'',
     playStatus:false,
     playIndex:0
   },
 
   onLoad: function () {
     var _this=this;
-   this.innerAudioContext = wx.createInnerAudioContext()
+    this.innerAudioContext = wx.createInnerAudioContext()
     this.innerAudioContext.autoplay = false;
-    this.innerAudioContext.src = 'http://dl.stream.qqmusic.qq.com/C400000H2jfM21Wl7c.m4a?guid=4935912155&vkey=DB457B64C1C4E34F3305D83EDFABB7C8CB98F1012B0090FB2977A52D0E6616FB9003C316F11542A6A60267013C415A3486C2329FC7F08740&uin=0&fromtag=38'
+    wx.request({
+      url: 'http://106.13.4.50:8899/poemList',
+      success(res) {
+        console.log(res)
+        _this.setData({
+          poemList: res.data
+        })
+        console.log(_this.data.poemList[_this.data.playIndex])
+        _this.innerAudioContext.src = _this.data.poemList[_this.data.playIndex].url
+      }
+    })
     this.innerAudioContext.onPlay(() => {
       this.setData({
         playStatus: true
@@ -40,15 +49,7 @@ Page({
         return util.formatTime(new Date(log))
       })
     })
-    wx.request({
-      url: 'http://106.13.4.50:8899/poemList',
-      success(res){
-        console.log(res)
-        _this.setData({
-          poemList:res.data
-        })
-      }
-    })
+
   },
   loadMorePoem: function () {
     if (!this.data.poemHasMore || this.data.searchLoading) {
@@ -73,7 +74,7 @@ Page({
         playIndex: index
       })
       this.audioStop()
-      this.setSrc('http://106.13.4.50/cqmy.wav')
+      this.setSrc(this.data.poemList[this.data.playIndex].url)
       this.innerAudioContext.onCanplay(()=>{
         this.innerAudioContext.play();
       })

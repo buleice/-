@@ -6,8 +6,8 @@
 </view>
 <view class='tag_container'>
   <!-- <navigator url='/pages/authors/authors' hidden="{{!loadingHidden}}"><button class='tag_item' >作者</button></navigator > -->
-  <navigator url='/pages/logs/logs' hidden="{{!loadingHidden}}"><button class='tag_item' >全部</button></navigator >
-  <view wx:for="{{tags}}" wx:key="unique" data-name='{{item.name}}' bindtap='Onserach' ><button class='tag_item' id='{{item.objectId}}'>{{item.name}}</button></view >
+  <!-- <navigator url='/pages/logs/logs' hidden="{{!loadingHidden}}"><button class='tag_item' >全部</button></navigator > -->
+  <!-- <view wx:for="{{tags}}" wx:key="unique" data-name='{{item.name}}' bindtap='Onserach' ><button class='tag_item' id='{{item.objectId}}'>{{item.name}}</button></view > -->
 </view>
 
 <loading hidden="{{loadingHidden}}">

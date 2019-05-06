@@ -8,6 +8,7 @@ Page({
     loadingHidden: false,
     loadingFail: false,
     searchs: [],
+    searchs:0,
     auths: [
       '李白',
       '杜甫',
@@ -29,6 +30,17 @@ Page({
     var that = this;
     const _this = this;
     var values = options.value;
+    wx.request({
+      url: 'http://106.13.4.50:8899/detailContent',
+      data: {
+        detailContent: values
+
+      },
+      success(res) {
+        console.log(res)
+        _this.setData({ searchs: res.data, loadingHidden: true })
+      }
+    })
 
     this.innerAudioContext = wx.createInnerAudioContext()
     this.innerAudioContext.autoplay = false;
@@ -54,33 +66,34 @@ Page({
     })
 
     console.log(values)
-    if (this.data.auths.includes(values)) {
-      wx.request({
-        url: 'http://106.13.4.50:8899/poemAuthor',
-        data: {
-          poemAuthor: values
 
-        },
-        success(res) {
-          console.log(res)
-          _this.setData({ searchs: res.data, loadingHidden: true })
-        }
-      })
-    } else if (this.data.dynasty.includes(values)) {
-      wx.request({
-        url: 'http://106.13.4.50:8899/poemDynasty',
-        data: {
-          poemDynasty: values
-        },
-        success(res) {
-          console.log(res)
-          _this.setData({ searchs: res.data, loadingHidden: true })
-        }
-      }
-      )
-    } else {
+    // if (this.data.auths.includes(values)) {
+    //   wx.request({
+    //     url: 'http://106.13.4.50:8899/poemAuthor',
+    //     data: {
+    //       poemAuthor: values
 
-    }
+    //     },
+    //     success(res) {
+    //       console.log(res)
+    //       _this.setData({ searchs: res.data, loadingHidden: true })
+    //     }
+    //   })
+    // } else if (this.data.dynasty.includes(values)) {
+    //   wx.request({
+    //     url: 'http://106.13.4.50:8899/poemDynasty',
+    //     data: {
+    //       poemDynasty: values
+    //     },
+    //     success(res) {
+    //       console.log(res)
+    //       _this.setData({ searchs: res.data, loadingHidden: true })
+    //     }
+    //   }
+    //   )
+    // } else {
+
+    // }
 
   },
   itemClick: function (event) {
@@ -162,7 +175,7 @@ Page({
         playIndex: index
       })
       this.audioStop()
-      this.setSrc('http://106.13.4.50/cqmy.wav')
+      this.setSrc(this.data.searchs[this.data.playIndex].url)
       this.innerAudioContext.onCanplay(() => {
         this.innerAudioContext.play();
       })
