@@ -1,17 +1,18 @@
-<mxfile host="app.diagrams.net" modified="2023-08-02T02:56:45.365Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="STSHrgc8VSt6L2qvrTOc" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-02T02:57:55.035Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="Vg_nQnCcBXQ9CJdEJjfN" version="21.6.6" type="github">
   <diagram name="第 1 页" id="-WIHNXKfvVTFxInO3pld">
     <mxGraphModel dx="1050" dy="553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="OSD-rZQ_V-XbJ5NN2biw-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OSD-rZQ_V-XbJ5NN2biw-2" target="OSD-rZQ_V-XbJ5NN2biw-5">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="OSD-rZQ_V-XbJ5NN2biw-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="OSD-rZQ_V-XbJ5NN2biw-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="127" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="OSD-rZQ_V-XbJ5NN2biw-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OSD-rZQ_V-XbJ5NN2biw-2" target="OSD-rZQ_V-XbJ5NN2biw-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="OSD-rZQ_V-XbJ5NN2biw-2" value="创建工单" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="107" width="80" height="40" as="geometry" />
+        <mxCell id="OSD-rZQ_V-XbJ5NN2biw-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="OSD-rZQ_V-XbJ5NN2biw-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="127" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="OSD-rZQ_V-XbJ5NN2biw-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OSD-rZQ_V-XbJ5NN2biw-5" target="OSD-rZQ_V-XbJ5NN2biw-6">
           <mxGeometry relative="1" as="geometry" />
@@ -88,6 +89,11 @@
         <mxCell id="OSD-rZQ_V-XbJ5NN2biw-46" value="运维人员" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OSD-rZQ_V-XbJ5NN2biw-43">
           <mxGeometry y="90" width="140" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="OSD-rZQ_V-XbJ5NN2biw-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OSD-rZQ_V-XbJ5NN2biw-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="107" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="OSD-rZQ_V-XbJ5NN2biw-54" value="烽火台" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="30" width="80" height="40" as="geometry" />
         </mxCell>
@@ -129,6 +135,9 @@
         </mxCell>
         <mxCell id="OSD-rZQ_V-XbJ5NN2biw-62" value="故障处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="540" y="247" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OSD-rZQ_V-XbJ5NN2biw-80" value="创建工单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="110" width="90" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
