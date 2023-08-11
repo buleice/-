@@ -1,11 +1,19 @@
-<mxfile host="app.diagrams.net" modified="2023-08-11T01:56:39.175Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="zz9qRR1IbjIRJchIBAo0" version="21.6.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-11T02:02:55.234Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="j12S3Gk3eymH9zj2GIG_" version="21.6.7" type="github">
   <diagram name="第 1 页" id="-WIHNXKfvVTFxInO3pld">
     <mxGraphModel dx="1050" dy="553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="QgTYGsUYSailKNq_mToX-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=-0.029;entryY=0.167;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QgTYGsUYSailKNq_mToX-34" target="OSD-rZQ_V-XbJ5NN2biw-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QgTYGsUYSailKNq_mToX-39" value="推送工单状态变更消息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QgTYGsUYSailKNq_mToX-38">
+          <mxGeometry x="-0.6181" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="QgTYGsUYSailKNq_mToX-34" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="230" width="530" height="110" as="geometry" />
+          <mxGeometry x="110" y="230" width="600" height="110" as="geometry" />
         </mxCell>
         <mxCell id="QgTYGsUYSailKNq_mToX-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="OSD-rZQ_V-XbJ5NN2biw-43" target="OSD-rZQ_V-XbJ5NN2biw-80">
           <mxGeometry relative="1" as="geometry">
@@ -120,6 +128,9 @@
         <mxCell id="QgTYGsUYSailKNq_mToX-11" value="复盘中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="438.5" y="270" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="QgTYGsUYSailKNq_mToX-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="QgTYGsUYSailKNq_mToX-12" target="QgTYGsUYSailKNq_mToX-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="QgTYGsUYSailKNq_mToX-12" value="已复盘" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="535.5" y="270" width="60" height="30" as="geometry" />
         </mxCell>
@@ -131,6 +142,9 @@
         </mxCell>
         <mxCell id="QgTYGsUYSailKNq_mToX-2" value="待处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="136.5" y="270" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QgTYGsUYSailKNq_mToX-40" value="已完成" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="270" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
