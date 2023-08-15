@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-15T13:50:34.877Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="1TU54H0JulpRDiZJu9oR" version="21.6.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-15T13:50:45.192Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="J6QxZVa4lHwsjNf3K-ZD" version="21.6.7" type="github">
   <diagram name="第 1 页" id="-WIHNXKfvVTFxInO3pld">
     <mxGraphModel dx="1434" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -44,7 +44,7 @@
         </mxCell>
         <mxCell id="oU1bLZ104cn8bty1seQJ-97" value="创建工单即时通知" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oU1bLZ104cn8bty1seQJ-96">
           <mxGeometry x="-0.4347" y="1" relative="1" as="geometry">
-            <mxPoint x="27" as="offset" />
+            <mxPoint x="73" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="OSD-rZQ_V-XbJ5NN2biw-80" value="创建工单" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
