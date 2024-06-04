@@ -1,9 +1,39 @@
-<mxfile host="app.diagrams.net" modified="2024-06-04T11:26:44.666Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" version="23.0.2" etag="iy_E7ryaC608if_N6uxp" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-04T11:44:47.906Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="FAGbb9DEknauKpjxMCcZ" version="23.0.2" type="github">
   <diagram name="第 1 页" id="nzfdc96jaKqgblje3Dvo">
-    <mxGraphModel>
+    <mxGraphModel dx="830" dy="485" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="FSCISP3Imslb9fhzPujj-3" value="表A" style="swimlane;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="50" y="70" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="FSCISP3Imslb9fhzPujj-5" value="商品单价" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="FSCISP3Imslb9fhzPujj-3">
+          <mxGeometry y="40" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FSCISP3Imslb9fhzPujj-12" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;curved=0;" edge="1" parent="1" source="FSCISP3Imslb9fhzPujj-6" target="FSCISP3Imslb9fhzPujj-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FSCISP3Imslb9fhzPujj-6" value="表B" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="50" y="220" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="FSCISP3Imslb9fhzPujj-7" value="销售数量" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="FSCISP3Imslb9fhzPujj-6">
+          <mxGeometry y="40" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FSCISP3Imslb9fhzPujj-8" value="表" style="swimlane;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="400" y="140" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="FSCISP3Imslb9fhzPujj-9" value="销售额" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;" vertex="1" parent="FSCISP3Imslb9fhzPujj-8">
+          <mxGeometry y="40" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FSCISP3Imslb9fhzPujj-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;" edge="1" parent="1" source="FSCISP3Imslb9fhzPujj-10" target="FSCISP3Imslb9fhzPujj-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FSCISP3Imslb9fhzPujj-10" value="ETL" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="280" y="180" width="25" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="FSCISP3Imslb9fhzPujj-13" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;curved=0;" edge="1" parent="1" source="FSCISP3Imslb9fhzPujj-5" target="FSCISP3Imslb9fhzPujj-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
