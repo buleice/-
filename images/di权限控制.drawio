@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-13T07:08:22.743Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="lkrO9RLHF2hUjXCemi02" version="24.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-13T07:10:56.007Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="0LuLesvmgkpJ_X3wkzBz" version="24.5.3" type="github">
   <diagram name="第 1 页" id="QhjmsHd4cFKBtVcFpPf3">
     <mxGraphModel dx="1420" dy="724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -42,7 +42,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3rRtZios1IY7zG07xDWW-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="3rRtZios1IY7zG07xDWW-15" target="3rRtZios1IY7zG07xDWW-17">
+        <mxCell id="3rRtZios1IY7zG07xDWW-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3rRtZios1IY7zG07xDWW-15" target="3rRtZios1IY7zG07xDWW-17">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="230" y="320" />
@@ -99,6 +99,9 @@
         <mxCell id="3rRtZios1IY7zG07xDWW-18" value="是否是uat逻辑环境" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="570" y="560" width="130" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="3rRtZios1IY7zG07xDWW-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3rRtZios1IY7zG07xDWW-21" target="3rRtZios1IY7zG07xDWW-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="3rRtZios1IY7zG07xDWW-21" value="拥有编辑权限" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="335" y="730" width="120" height="60" as="geometry" />
         </mxCell>
@@ -110,6 +113,9 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="3rRtZios1IY7zG07xDWW-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3rRtZios1IY7zG07xDWW-40" target="3rRtZios1IY7zG07xDWW-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="3rRtZios1IY7zG07xDWW-40" value="没有编辑权限" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="700" y="830" width="120" height="60" as="geometry" />
         </mxCell>
@@ -120,6 +126,9 @@
           <mxGeometry x="-0.5514" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="3rRtZios1IY7zG07xDWW-54" value="结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="890" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
